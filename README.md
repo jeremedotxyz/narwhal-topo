@@ -114,3 +114,7 @@ Version 0.1.0 accepts at most 300,000 points and 250,000 cells per reconstructio
 The service binds to 127.0.0.1 by default. It has no accounts, TLS or application authentication. Do not expose it as a public server. The optional UDP protocol has CRC integrity checks but no sender authentication or retransmission. See the deployment boundary in [architecture](docs/architecture.md).
 
 No open-source license has been selected. No third-party sensor firmware, proprietary CAD or measured dataset is bundled. Contributions should preserve the distinction between analytic truth, synthetic output and physical measurements.
+
+## Share artwork
+
+The repository social preview matches the Narwhal Two Plus blueprint palette and sheet layout. The [1280 × 640 PNG](docs/assets/social-preview.png) and [editable SVG](docs/assets/social-preview.svg) are generated from the actual synthetic reconstruction, contours and cross-section. [Regenerate the artwork](scripts/generate_social_preview.py) with `PYTHONPATH=src python scripts/generate_social_preview.py`; only this optional artwork task requires Pillow.
