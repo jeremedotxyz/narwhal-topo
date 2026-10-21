@@ -27,7 +27,7 @@ Manual checks completed in the local browser on 21 October 2026:
 - The CSV file chooser imported the 2,400-point fixture. The resulting 0.60 m grid had 500 supported cells and 2,385 accepted returns.
 - The export button downloaded a valid nine-member ZIP, with no archive corruption.
 - The synthetic sender delivered 37,776 points in 1,181 UDP datagrams, with zero invalid packets and zero sequence gaps; buffered capture reconstructed the full survey.
-- Desktop (1,440 by 1,100) and phone (390 by 844) layouts were inspected. The phone document had no horizontal overflow; the map remained usable below the controls.
+- Desktop (1,440 by 1,100) and phone (390 by 844) layouts were inspected. The phone document had no horizontal overflow; the map remained usable and opens above the controls on narrow displays.
 - The reference survey and default 0.50 m settings were restored. A [workbench screenshot](assets/workbench.png) records the final terrain view.
 
 These are manual functional checks, not an automated browser regression suite. Browser JavaScript syntax also passed `node --check`.
