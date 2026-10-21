@@ -1,0 +1,63 @@
+{
+  "evidence": "synthetic only; analytic surface is known to the generator",
+  "seed": 532,
+  "results": [
+    {
+      "input_points": 37776,
+      "accepted_points": 37776,
+      "rejected_flags_or_nonfinite": 0,
+      "robust_outliers": 0,
+      "display_points": 37776,
+      "valid_cells": 37776,
+      "total_cells": 38400,
+      "coverage": 0.98375,
+      "observed_area_m2": 2361.0,
+      "z_min": -20.32352139449614,
+      "z_max": -8.017541098088781,
+      "z_mean": -15.126859777661467,
+      "cell_size_m": 0.25,
+      "synthetic_points": 37776,
+      "unsynced_points": 37776,
+      "bias_vs_cell_center_m": 0.00023503080171506652,
+      "rmse_vs_cell_center_m": 0.17323824696468523
+    },
+    {
+      "input_points": 37776,
+      "accepted_points": 37511,
+      "rejected_flags_or_nonfinite": 0,
+      "robust_outliers": 265,
+      "display_points": 37511,
+      "valid_cells": 9444,
+      "total_cells": 9600,
+      "coverage": 0.98375,
+      "observed_area_m2": 2361.0,
+      "z_min": -18.409916132270506,
+      "z_max": -10.05944674828213,
+      "z_mean": -15.127197601660828,
+      "cell_size_m": 0.5,
+      "synthetic_points": 37511,
+      "unsynced_points": 37511,
+      "bias_vs_cell_center_m": -0.00010363256462184304,
+      "rmse_vs_cell_center_m": 0.019236046385208778
+    },
+    {
+      "input_points": 37776,
+      "accepted_points": 37523,
+      "rejected_flags_or_nonfinite": 0,
+      "robust_outliers": 253,
+      "display_points": 37523,
+      "valid_cells": 2361,
+      "total_cells": 2400,
+      "coverage": 0.98375,
+      "observed_area_m2": 2361.0,
+      "z_min": -18.3623054873407,
+      "z_max": -10.114822372918255,
+      "z_mean": -15.127828465036515,
+      "cell_size_m": 1.0,
+      "synthetic_points": 37523,
+      "unsynced_points": 37523,
+      "bias_vs_cell_center_m": -0.0007378376962076413,
+      "rmse_vs_cell_center_m": 0.014375140479235354
+    }
+  ]
+}

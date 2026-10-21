@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Cite this software reference and its technical report. Synthetic validation is not physical sensor accuracy."
+title: "Narwhal Topo: Underwater LiDAR Terrain Mapping Workbench"
+authors:
+  - name: "Narwhal Topo project"
+version: 0.1.0
+date-released: 2026-10-21
+type: software
+repository-code: "https://github.com/jeremedotxyz/narwhal-topo"
+keywords:
+  - lidar
+  - terrain mapping
+  - underwater
+  - point clouds
